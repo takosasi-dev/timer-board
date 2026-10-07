@@ -1,0 +1,8 @@
+NEXT                                LEFT LAST                             PASSED UNIT              ACTIVATES
+Wed 2027-01-15 08:00:00 UTC          20h Tue 2027-01-14 08:00:03 UTC 3h 1min ago backup.timer      backup.service
+Fri 2027-01-22 15:45:54 UTC 1 week 1 day -                                     - report.timer      report.service
+-                                      - -                                     - cache-clean.timer cache-clean.service
+n/a                                  n/a n/a                                 n/a orphan.timer      n/a
+
+4 timers listed.
+Pass --all to see loaded but inactive timers, too.

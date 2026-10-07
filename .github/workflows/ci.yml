@@ -1,0 +1,35 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.11", "3.14"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: systemd の版
+        run: systemctl --version | head -1
+
+      - name: fixture のテスト
+        run: python tests/run_all.py
+
+      # 本物の systemd で一覧が出るか。JSON と表の解析の両方で同じ結果になるかも見る。
+      # --transient は sudo -n systemd-run で成功・失敗の一時タイマーを作り、最後に片付ける
+      - name: 実物の systemd で確かめる
+        run: python tests/check_live.py --transient

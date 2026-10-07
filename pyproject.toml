@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "timerboard"
+version = "0.1.0"
+description = "systemd タイマーの次回・前回・結果を一覧にする TUI(読むだけ)"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+timerboard = "timerboard.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/takosasi-dev/timer-board"
+
+[tool.setuptools]
+packages = ["timerboard"]

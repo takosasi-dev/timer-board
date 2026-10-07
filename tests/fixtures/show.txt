@@ -1,0 +1,81 @@
+Id=backup.timer
+ActiveState=active
+Result=success
+TimersCalendar={ OnCalendar=*-*-* 03:00:00 ; next_elapse=Fri 2027-01-15 03:00:00 UTC }
+Unit=backup.service
+UnitFileState=enabled
+
+Id=backup.service
+ActiveState=inactive
+ExecMainCode=1
+ExecMainExitTimestampMonotonic=5002500000
+ExecMainStartTimestampMonotonic=5000000000
+ExecMainStatus=0
+Result=success
+UnitFileState=static
+
+Id=report.timer
+ActiveState=active
+Result=success
+TimersCalendar={ OnCalendar=Mon *-*-* 09:00:00 ; next_elapse=Mon 2027-01-18 09:00:00 UTC }
+TimersCalendar={ OnCalendar=Fri *-*-* 18:00:00 ; next_elapse=Fri 2027-01-15 18:00:00 UTC }
+Unit=report.service
+UnitFileState=enabled
+
+Id=report.service
+ActiveState=failed
+ExecMainCode=1
+ExecMainExitTimestampMonotonic=7200000000
+ExecMainStartTimestampMonotonic=7000000000
+ExecMainStatus=2
+Result=exit-code
+UnitFileState=static
+
+Id=cache-clean.timer
+ActiveState=inactive
+Result=success
+TimersMonotonic={ OnUnitActiveUSec=1d ; next_elapse=0 }
+TimersMonotonic={ OnBootUSec=15min ; next_elapse=0 }
+Unit=cache-clean.service
+UnitFileState=disabled
+
+Id=cache-clean.service
+ActiveState=inactive
+ExecMainCode=0
+ExecMainExitTimestampMonotonic=0
+ExecMainStartTimestampMonotonic=0
+ExecMainStatus=0
+Result=success
+UnitFileState=static
+
+Id=sync.timer
+ActiveState=active
+Result=success
+TimersMonotonic={ OnUnitActiveUSec=10min ; next_elapse=1h 10min }
+Unit=sync.service
+UnitFileState=enabled
+
+Id=sync.service
+ActiveState=active
+ExecMainCode=0
+ExecMainExitTimestampMonotonic=0
+ExecMainStartTimestampMonotonic=9000000000
+ExecMainStatus=0
+Result=success
+UnitFileState=static
+
+Id=rotate.timer
+ActiveState=active
+Result=success
+TimersCalendar={ OnCalendar=daily ; next_elapse=Sat 2027-01-16 00:00:00 UTC }
+Unit=rotate.service
+UnitFileState=enabled
+
+Id=rotate.service
+ActiveState=inactive
+ExecMainCode=0
+ExecMainExitTimestampMonotonic=0
+ExecMainStartTimestampMonotonic=0
+ExecMainStatus=0
+Result=success
+UnitFileState=static
