@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="969" height="310" viewBox="0 0 969 310">
+<rect width="100%" height="100%" rx="10" fill="#1b1e24"/>
+<rect width="100%" height="30" rx="10" fill="#2b2f37"/><rect y="20" width="100%" height="10" fill="#2b2f37"/>
+<circle cx="18" cy="15.0" r="6" fill="#ff5f57"/>
+<circle cx="38" cy="15.0" r="6" fill="#febc2e"/>
+<circle cx="58" cy="15.0" r="6" fill="#28c840"/>
+<text x="484" y="20.0" fill="#8b929e" font-size="13" text-anchor="middle" font-family="sans-serif">timerboard</text>
+<g font-family="'DejaVu Sans Mono',Consolas,Menlo,'MS Gothic',monospace" font-size="14" fill="#d4d7dd">
+<rect x="14.0" y="44" width="109.8" height="18" fill="#d4d7dd" shape-rendering="crispEdges"/>
+<text x="14.0" y="57" textLength="109.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1b1e24"> TimerBoard  </text>
+<rect x="123.2" y="44" width="67.8" height="18" fill="#d4d7dd" shape-rendering="crispEdges"/>
+<text x="123.2" y="57" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1b1e24">システム</text>
+<rect x="190.4" y="44" width="25.8" height="18" fill="#d4d7dd" shape-rendering="crispEdges"/>
+<text x="190.4" y="57" textLength="25.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1b1e24">  6</text>
+<rect x="215.6" y="44" width="17.4" height="18" fill="#d4d7dd" shape-rendering="crispEdges"/>
+<text x="215.6" y="57" textLength="16.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1b1e24">件</text>
+<rect x="232.4" y="44" width="17.4" height="18" fill="#d4d7dd" shape-rendering="crispEdges"/>
+<rect x="249.2" y="44" width="34.2" height="18" fill="#d4d7dd" shape-rendering="crispEdges"/>
+<text x="249.2" y="57" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1b1e24">失敗</text>
+<rect x="282.8" y="44" width="34.2" height="18" fill="#d4d7dd" shape-rendering="crispEdges"/>
+<text x="282.8" y="57" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1b1e24"> 1  </text>
+<rect x="316.4" y="44" width="34.2" height="18" fill="#d4d7dd" shape-rendering="crispEdges"/>
+<text x="316.4" y="57" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1b1e24">更新</text>
+<rect x="350.0" y="44" width="605.4" height="18" fill="#d4d7dd" shape-rendering="crispEdges"/>
+<text x="350.0" y="57" textLength="604.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1b1e24"> 22:17:18                                                               </text>
+<text x="22.4" y="75" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" font-weight="bold">タイマー</text>
+<text x="308.0" y="75" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" font-weight="bold">次回</text>
+<text x="459.2" y="75" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" font-weight="bold">残り</text>
+<text x="509.6" y="75" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" font-weight="bold">前回</text>
+<text x="669.2" y="75" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" font-weight="bold">経過</text>
+<text x="719.6" y="75" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" font-weight="bold">結果</text>
+<text x="887.6" y="75" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" font-weight="bold">時間</text>
+<text x="14.0" y="93" textLength="462.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> sync.timer                        10-08 22:30       12</text>
+<text x="476.0" y="93" textLength="16.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">分</text>
+<text x="492.8" y="93" textLength="226.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  -                     -  </text>
+<text x="719.6" y="93" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">実行中</text>
+<text x="770.0" y="93" textLength="184.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                 -    </text>
+<rect x="14.0" y="98" width="462.6" height="18" fill="#e06c75" shape-rendering="crispEdges"/>
+<text x="14.0" y="111" textLength="462.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1b1e24" font-weight="bold"> report.timer                      10-08 23:00       42</text>
+<rect x="476.0" y="98" width="17.4" height="18" fill="#e06c75" shape-rendering="crispEdges"/>
+<text x="476.0" y="111" textLength="16.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1b1e24" font-weight="bold">分</text>
+<rect x="492.8" y="98" width="227.4" height="18" fill="#e06c75" shape-rendering="crispEdges"/>
+<text x="492.8" y="111" textLength="226.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1b1e24" font-weight="bold">  -                     -  </text>
+<rect x="719.6" y="98" width="34.2" height="18" fill="#e06c75" shape-rendering="crispEdges"/>
+<text x="719.6" y="111" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1b1e24" font-weight="bold">失敗</text>
+<rect x="753.2" y="98" width="9.0" height="18" fill="#e06c75" shape-rendering="crispEdges"/>
+<text x="753.2" y="111" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1b1e24" font-weight="bold">(</text>
+<rect x="761.6" y="98" width="84.6" height="18" fill="#e06c75" shape-rendering="crispEdges"/>
+<text x="761.6" y="111" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1b1e24" font-weight="bold">終了コード</text>
+<rect x="845.6" y="98" width="59.4" height="18" fill="#e06c75" shape-rendering="crispEdges"/>
+<text x="845.6" y="111" textLength="58.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1b1e24" font-weight="bold">2)  0.0</text>
+<rect x="904.4" y="98" width="17.4" height="18" fill="#e06c75" shape-rendering="crispEdges"/>
+<text x="904.4" y="111" textLength="16.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1b1e24" font-weight="bold">秒</text>
+<rect x="921.2" y="98" width="34.2" height="18" fill="#e06c75" shape-rendering="crispEdges"/>
+<text x="14.0" y="129" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> shadow.timer                      10-09 00:00  1</text>
+<text x="425.6" y="129" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">時間</text>
+<text x="459.2" y="129" textLength="16.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">42</text>
+<text x="476.0" y="129" textLength="16.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">分</text>
+<text x="492.8" y="129" textLength="142.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  10-08 00:00  22</text>
+<text x="635.6" y="129" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">時間</text>
+<text x="669.2" y="129" textLength="16.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">17</text>
+<text x="686.0" y="129" textLength="16.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">分</text>
+<text x="719.6" y="129" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">記録なし</text>
+<text x="786.8" y="129" textLength="168.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">               -    </text>
+<text x="14.0" y="147" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> backup.timer                      10-09 03:00  4</text>
+<text x="425.6" y="147" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">時間</text>
+<text x="459.2" y="147" textLength="16.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">42</text>
+<text x="476.0" y="147" textLength="16.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">分</text>
+<text x="492.8" y="147" textLength="226.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  -                     -  </text>
+<text x="719.6" y="147" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">成功</text>
+<text x="753.2" y="147" textLength="151.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">               0.0</text>
+<text x="904.4" y="147" textLength="16.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">秒</text>
+<text x="14.0" y="165" textLength="411.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> archlinux-keyring-wkd-sync.timer  10-13 21:07  4</text>
+<text x="425.6" y="165" textLength="16.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">日</text>
+<text x="442.4" y="165" textLength="16.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">22</text>
+<text x="459.2" y="165" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">時間</text>
+<text x="492.8" y="165" textLength="151.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  10-07 20:40    1</text>
+<text x="644.0" y="165" textLength="16.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">日</text>
+<text x="660.8" y="165" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">1</text>
+<text x="669.2" y="165" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">時間</text>
+<text x="719.6" y="165" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">記録なし</text>
+<text x="786.8" y="165" textLength="168.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">               -    </text>
+<text x="14.0" y="183" textLength="705.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> systemd-tmpfiles-clean.timer      -                    -  -                     -  </text>
+<text x="719.6" y="183" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">未実行</text>
+<text x="770.0" y="183" textLength="184.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                 -    </text>
+<text x="14.0" y="291" textLength="42.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0.6"> j/k </text>
+<text x="56.0" y="291" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0.6">移動</text>
+<text x="89.6" y="291" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0.6">  Enter </text>
+<text x="156.8" y="291" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0.6">ログ</text>
+<text x="190.4" y="291" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0.6">  r </text>
+<text x="224.0" y="291" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0.6">再読込</text>
+<text x="274.4" y="291" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0.6">  u </text>
+<text x="308.0" y="291" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0.6">システム</text>
+<text x="375.2" y="291" textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0.6">/</text>
+<text x="383.6" y="291" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0.6">ユーザー</text>
+<text x="450.8" y="291" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0.6">  f </text>
+<text x="484.4" y="291" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0.6">失敗のみ</text>
+<text x="551.6" y="291" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0.6">  q </text>
+<text x="585.2" y="291" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0.6">終了</text>
+</g></svg>
